@@ -21,5 +21,6 @@ public class App {
         System.out.println("Bonificação: R$ " + bonificacao);
         System.out.println("Salário líquido: R$ " + salarioliquido);
 
+        leitor.close();
     }
 }
