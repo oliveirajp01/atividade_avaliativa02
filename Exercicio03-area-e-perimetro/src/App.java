@@ -12,10 +12,11 @@ public class App {
         System.out.println("Área: " + area);
         double perimetro = 2*(base+altura);
         System.out.println("Perímetro: " + perimetro);
-
+        if (area < 13) {
+            System.out.println("Área menor que 13");
+        } else {
+        System.out.println("Área maior que 13");
+        }
         Leitor.close();
-        
-
-
     }
 }
