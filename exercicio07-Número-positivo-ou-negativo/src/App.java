@@ -10,6 +10,6 @@ public class App {
         }else{
             System.out.println("O número é positivo");
         }
-        
+        leitor.close();
     }
 }
